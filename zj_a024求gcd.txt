@@ -1,0 +1,6 @@
+a,b = map(int,input().split())
+if a>b:
+  a,b = b,a    #py可以這樣寫，很方便。cpp必須用swap()
+while (b%a):
+  a,b = (b%a),a
+print (a)
