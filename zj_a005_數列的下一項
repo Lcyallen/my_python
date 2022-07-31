@@ -1,0 +1,8 @@
+n = int(input())
+while n:
+  a,b,c,d = map(int,input().split())  #要一行輸入多個數字的寫法，比c++麻煩一點
+  n -=1
+  if (b-a)==(c-b)and(c-b)==(d-c):    #py的"and"直接寫"and"，不能用"&&"，也沒有a==b==c的寫法
+    print (a,b,c,d,d*2-c)
+  else:
+    print (a,b,c,d,d*d//c)
