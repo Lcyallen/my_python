@@ -1,0 +1,2 @@
+a,b = map(int,input().split())  #再複習一次如何輸入多個數字
+print (a+b)
