@@ -6,7 +6,7 @@ if D>0:
   print("Two different roots x1=",x1," , x2=",x2,sep='')
 
 elif D==0:
-  print("Two same roots x=",(0-b)//(2*a),sep='')
+  print("Two same roots x=",(0-b)//(2*a),sep='')    #印出來的結果之間用逗號連接，再用sep=''刪掉空格
 
 else:
   print("No real root")
