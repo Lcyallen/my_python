@@ -1,7 +1,5 @@
-import turtle
-import time
+import turtle as t
 
-t = turtle.Turtle()
 colors = ['blue','red','green','yellow','black']  #把顏色寫進list
 t.color('black')
 t.width(3)   #設定筆寬
@@ -13,4 +11,4 @@ for j in range (10):
     t.right(36)
     t.color(colors[j%5])
     
-time.sleep(3)
+t.done()
