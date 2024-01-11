@@ -1,6 +1,5 @@
 import turtle as t
 import colorsys as cs
-import time
 
 t.speed(0)
 t.bgcolor('black')
@@ -15,4 +14,4 @@ for j in range (15):
     t.rt(180)   #畫完葉子方向向右，此時須先向後轉，往左前進
     t.circle(25,24) #走小圈
     t.rt(180)   #這個是關鍵！
-time.sleep(2)
+t.done()
