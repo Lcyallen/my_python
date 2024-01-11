@@ -1,6 +1,5 @@
 import turtle as t
 import colorsys as cs
-import time
 
 t.speed(0)
 t.width(2)
@@ -16,4 +15,4 @@ for i in range(200):
         t.left(90)
         t.circle(200,90)
 
-time.sleep(5)
+t.done()
