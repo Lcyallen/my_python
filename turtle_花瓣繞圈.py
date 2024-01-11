@@ -1,6 +1,5 @@
 import turtle as t
 import colorsys as cs
-import time
 
 t.speed(0)
 t.width(2)
@@ -15,4 +14,4 @@ for i in range(60):
     t.circle(20,50)
     t.rt(3)    #多加這一行才能旋轉
     
-time.sleep(2)
+t.done()
