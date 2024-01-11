@@ -1,7 +1,5 @@
-import turtle
-import time
+import turtle as t
 
-t = turtle.Turtle()
 t.color('blue')
 t.width(2)
 t.speed(5)
@@ -20,4 +18,4 @@ for j in range(n):
   t.penup()
   t.forward(40)
     
-time.sleep(3)
+t.done()
