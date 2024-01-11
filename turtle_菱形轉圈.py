@@ -1,6 +1,5 @@
 import turtle as t
 import colorsys as cs
-import time
 
 t.speed(0)
 t.bgcolor('black')
@@ -24,4 +23,4 @@ for j in range (96):
 
 #print(t.heading()) #可以獲得目前的方向角
 
-time.sleep(2)
+t.done()
