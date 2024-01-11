@@ -1,6 +1,5 @@
 import turtle as t
 import colorsys as cs
-import time
 
 t.speed(0)
 t.width(2)
@@ -15,4 +14,4 @@ for i in range(100):
     t.right(180)  #轉180度才能畫同一個圓
     t.circle(25,24)
 
-time.sleep(5)
+t.done()
