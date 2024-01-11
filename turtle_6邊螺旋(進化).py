@@ -1,7 +1,4 @@
-import turtle
-import time
-
-t = turtle.Turtle()
+import turtle as t
 t.speed(0)
 
 colors =['blue','green','red','brown','pink','purple','orange','black']
@@ -21,4 +18,4 @@ for i in range(100):
     t.width(i/100+1)
     t.color(colors[i%6])
 '''
-time.sleep(2)
+t.done()
