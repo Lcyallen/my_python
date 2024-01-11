@@ -1,6 +1,5 @@
 import turtle as t
 import colorsys as cs
-import time
 
 t.speed(0)
 t.bgcolor('black')
@@ -16,4 +15,4 @@ for j in range (20):
     t.circle(25,18)
     t.right(90)
     
-time.sleep(5)
+t.done()
