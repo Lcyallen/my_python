@@ -1,20 +1,21 @@
 import turtle as t
-
-#t.speed()
+t.bgcolor('#272829')
+t.color('#96EFFF')
+t.speed(0)
 t.penup()
-t.goto((-200, 50))
+t.goto((-250, 60))
 t.pendown()
-  
+t.width(2)  
 
 def star(size):
-    if size <= 50:
+    if size <= 10:
         return
     else:
         for i in range(5):
             t.forward(size)
-            star(size/3)
             t.rt(144)
+            star(size/3)
   
-star(180)
+star(500)
 
 t.done()
