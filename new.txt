@@ -1,0 +1,13 @@
+import turtle as t
+
+t.bgcolor('#272829')
+t.speed(0)
+t.color('#F72798')
+for j in range (57):
+    for i in range (4):
+        t.fd(180)
+        t.rt(91)
+    t.rt(15)
+    
+
+t.done()
