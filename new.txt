@@ -1,13 +1,12 @@
 import turtle as t
-
-t.bgcolor('#272829')
+import colorsys as cs
+t.bgcolor('black')
 t.speed(0)
-t.color('#F72798')
-for j in range (57):
-    for i in range (4):
-        t.fd(180)
-        t.rt(91)
-    t.rt(15)
-    
-
+h = 0
+for i in range (190):
+    t.circle(8+i)
+    t.fd(1)
+    t.rt(2)
+    t.color(cs.hsv_to_rgb(h,1,1))
+    h += 0.01
 t.done()
